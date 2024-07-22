@@ -1,13 +1,9 @@
-//import github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
 import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
 plugins {
     id ("java")
     id ("com.github.johnrengelman.shadow")
-//    kotlin("jvm")
 }
 
-//group = 'my.j.ex'
-//version = '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()

@@ -1,31 +1,3 @@
-/*
-plugins {
-    id 'java'
-    id 'org.jetbrains.kotlin.jvm'
-}
-
-group = 'my.j.ex'
-version = '1.0-SNAPSHOT'
-
-repositories {
-    mavenCentral()
-}
-
-dependencies {
-    //testImplementation platform('org.junit:junit-bom:5.10.0')
-    //testImplementation 'org.junit.jupiter:junit-jupiter'
-    // https://mavenlibs.com/maven/dependency/com.google.guava/guava
-    implementation group: 'com.google.guava', name: 'guava', version: '32.1.2-jre'
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
-}
-
-test {
-    useJUnitPlatform()
-}
-kotlin {
-    jvmToolchain(21)
-}
-*/
 import io.spring.gradle.dependencymanagement.dsl.DependencyManagementExtension
 import org.springframework.boot.gradle.plugin.SpringBootPlugin.BOM_COORDINATES
 import org.gradle.plugins.ide.idea.model.IdeaLanguageLevel
